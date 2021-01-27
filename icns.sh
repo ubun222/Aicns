@@ -1,8 +1,8 @@
-index=$(dirname "$@")
+index=$(dirname "${1:-0}")
 
 cd $index
 
-target=$(echo "$@"| sed 's/$index//')
+target=$(echo "${1:-0}"| sed 's/$index//')
 
 mkdir icons.iconset 
 
