@@ -1,7 +1,7 @@
 ## auto creat macOS .icns file
 
 ```
-bash -c "$(curl -fsSL https://github.com/ubun222/Aicns/main/icns.sh)" Sample.png
+bash -c "$(curl -fsSL https://github.com/ubun222/Aicns/master/icns.sh)" Sample.png
 
 
 ```
