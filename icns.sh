@@ -1,4 +1,4 @@
-index=$(dirname "${0}")
+index=$(dirname "${0}") #因bash -c后的参数以$0开始而并非$1，所以clone下来的要手动把$0改成$1来使用，本文件仅适用于readme内的运行方式
 
 cd $index
 
