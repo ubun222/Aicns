@@ -1,8 +1,10 @@
-index=$(dirname "${1:-$0}")
+p=$0
+
+index=$(dirname "${1:-p}")
 
 cd $index
 
-target=$(echo "${1:-$0}"| sed 's/$index//')
+target=$(echo "${1:-p}"| sed 's/$index//')
 
 mkdir icons.iconset 
 
